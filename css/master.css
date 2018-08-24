@@ -85,6 +85,42 @@ p{
      padding: 16px 42px;
 }
 
+
+.btn-sub a{
+    padding: 8px 16px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form .input {
+    height : 40px;
+    width : 40%;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: #fff;
+    resize: none;
+    /* color: white; */
+}
+
+form .input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+form .input:not(:first-child){
+    margin-top: 20px;
+}
+
+/* Main global NAV and Menu*/
+
+
 .delay-1{
   animation-delay: 1s
 }
@@ -96,6 +132,7 @@ p{
 .delay-3{
   animation-delay: 1.4s
 }
+
 
 nav {
       padding: 8px;
@@ -144,7 +181,6 @@ nav ul li a {
       letter-spacing: 1.2px;
       font-weight: 600;
 }
-
 
 
 @media screen and (max-width:864px) {
